@@ -168,23 +168,205 @@ a:hover { color: #036; }
  * Author: 
  */
 
+.sombra {
+	-webkit-box-shadow: 3px 3px 10px #1a1a1a;
+	-moz-box-shadow: 3px 3px 10px #1a1a1a;
+	box-shadow: 3px 3px 10px #1a1a1a;
+}
+
+
 body {
     background-color: #afafa6;
 }
 
-#logo {
-    height: 100px;
-    background-color: black;
-}
-
 #container {
-    background-color: #651b32;
+    
 }
 
 header {
     height: 345px;
-    background: #afafa6 url(../img/bg_header.jpg) no-repeat 300px 110px;
+    background-color: #afafa6;
+    margin-top: 20px;
+    margin-bottom: -5px;
 }
+
+#head_sup {
+	position: relative;
+	overflow: hidden;
+}
+
+#logo {
+    height: 95px;
+    background-color: black;
+    padding: 0 5px;
+	text-align: center;
+}
+
+#logo img {
+	padding: 10px 0;	
+}
+
+#direccion {
+	height: 95px;
+	padding-left: 5px;	letter-spacing: 0.3px;	position: relative;	text-align: left;	text-shadow: 0 1px 0 #ccc;
+	font: bold 13px/20px Verdana, "Lucida Grande", Lucida, sans-serif;
+}
+
+#direccion p {
+	bottom: 0;	left: 0;	margin: 0;	padding: 0 5px;	position: absolute;	width: 545px;
+}
+
+#telefono {	
+	height: 95px;
+	font: bold 20px/80px Verdana, "Lucida Grande", Lucida, sans-serif;
+}
+
+menu {
+	position: absolute;
+	right: 10px;
+}
+
+menu ul li {
+	list-style-type: none;
+}
+
+#head_inf {
+	position: relative;
+	height: 240px;
+}
+
+nav {
+	background-color: black;
+	padding: 0 5px;
+	text-transform: uppercase;
+}
+
+nav ul li {
+	border-top: 1px solid #9b9b9b;
+	margin: 0 10px;
+	text-align: right;
+}
+
+nav li a {
+	font: bold 13px/47px Verdana, "Lucida Grande", Lucida, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: #afafa6;
+}
+
+#feature {
+    background: #651b32 url(../img/bg_header.jpg) no-repeat -10px 10px;
+    height: 240px;
+    padding: 0 10px 0 5px;
+    position: relative;
+}
+
+#feature p {
+	color: #000;
+	font: 30px/42px Impact, Arial, Helvetica, "Helvetica Neue", Geneva, sans-serif;
+	position: absolute;
+	top: 80px;
+	left: 25px;
+}
+
+#buscador {
+	position: relative;
+	background: black;
+	padding-right: 5px;
+	height: 240px;
+}
+
+#buscador h2 {
+	position: absolute;
+	top: -25px;
+	background-color: #000;
+	color: #afafa6;
+	padding: 5px 15px;
+	
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	z-index: 5;
+}
+
+#buscador form {
+	padding: 10px 25px 10px 15px;
+	color: white;
+}
+
+#buscador label {
+	clear: both;	float: left;	height: 30px;	width: 140px;
+	font: bold 14px/30px Verdana, "Lucida Grande", Lucida, sans-serif;
+}
+
+#buscador select {
+	display: block;	float: left;	height: 20px;	width: 128px;
+	margin-left: 12px;
+}
+
+#buscador input {
+	margin-top: 20px;
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+#buscador input[type="submit"] {
+	color: white;
+	border: none;
+	font: 12px/21px Verdana, "Lucida Grande", Lucida, sans-serif;
+	background: #651b32 url(../img/triangulo_dcha.png) no-repeat 5px;
+	position: absolute;
+	right: 16px;
+	bottom: 10px;
+	padding: 2px 6px 2px 15px;
+}
+
+#main {
+	min-height: 400px;
+	background-color: #651b32;
+	margin-top: -240px;
+	padding-top: 240px;
+}
+
+footer {
+	overflow: hidden;
+	padding-top: 15px;
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+
+footer menu {
+	position: relative;
+}
+
+footer menu ul {
+	float: right;
+	margin-bottom: 0;
+}
+
+footer menu ul li {
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

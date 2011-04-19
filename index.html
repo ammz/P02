@@ -20,85 +20,121 @@
 
 <body>
 
-    <div id="container" class="container_24">
+  <div id="container">
     <header>
-     
-      <h1 id="logo" class="grid_5">Logo de la empresa</h1>
-      
-      <p id="direccion" class="grid_14">Avda. José Galán Merino s/n, 41015 - Sevilla</p>
-      <p id="telefono" class="grid_4">900 456 876</p>
-      <nav>
-	<ul>
-	  <li>Inicio</li>
-	  <li>Stock de vehículos</li>
-	  <li>Servicios</li>
-	  <li>¿Dónde estamos?</li>
-	  <li>Contacto</li>
-	</ul>
-      </nav>
-
-      <menu>
-	<ul>
-	  <li>
-	    <a href="#">
-	      <img alt="facebook" src="img/icons/facebook.png" />
-	    </a>
-	  </li>
-	  <li>
-	    <a href="#">
-	      <img alt="linkedin" src="img/icons/linkedin.png" />
-	    </a>
-	  </li>
-	  <li>
-	    <a href="#">
-	      <img alt="twitter" src="img/icons/twitter.png" />
-	    </a>
-	  </li>
-	  <li>
-	    <a href="#">
-	      <img alt="email" src="img/icons/email.png" />
-	    </a>
-	  </li>
-	</ul>
-      </menu>
-
-      <div id="feature" class="grid_14">
-	<p>Tenemos <br /> el coche <br /> que busca </p>
-      </div>
-
-      <div id="buscador">
-	<form method="post" action="">
-	  <div>
-	    <label>Marca
-	    <select>
-	      <option>Opcion 1</option>
-	      <option>Opcion 2</option>
-	    </select>
-	    </label>
-	    <label>Modelo
-	    <select>
-	      <option>Opcion 1</option>
-	      <option>Opcion 2</option>
-	    </select>
-	    </label>
-	    <label>Combustible
-	    <select>
-	      <option>Opcion 1</option>
-	      <option>Opcion 2</option>
-	    </select>
-	    </label>
-	  </div>
-	</form>
-      </div>
-    </header>
     
-    <div id="">
-    </div>
+      <div id="head_sup" class="container_24">
+
+	<div id="logo" class="grid_5 alpha omega">
+	  <img src="img/logo.png" alt="logo_empresa" />
+	</div>
+
+	<div id="direccion" class="grid_14">
+	  <p>Avda. José Galán Merino s/n, 41015 - Sevilla</p>
+	</div>
+	
+	<p id="telefono" class="grid_4 alpha">900 456 876</p>
+
+	<menu class="grid-1">
+	  <ul>
+	    <li>
+	      <a href="#">
+		<img alt="facebook" src="img/icons/facebook.png" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="#">
+		<img alt="linkedin" src="img/icons/linkedin.png" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="#">
+		<img alt="twitter" src="img/icons/twitter.png" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="#">
+		<img alt="email" src="img/icons/email.png" />
+	      </a>
+	    </li>
+	  </ul>
+	</menu>
+      </div> <!-- Fin head_sup -->
+
+      <div id="head_inf" class="container_24">
+	<nav class="grid_5 alpha omega">
+	  <ul>
+	    <li><a href="#">Inicio</a></li>
+	    <li><a href="#">Stock de vehículos</a></li>
+	    <li><a href="#">Servicios</a></li>
+	    <li><a href="#">¿Dónde estamos?</a></li>
+	    <li><a href="#">Contacto</a></li>
+	  </ul>
+	</nav>
+
+	<div id="feature" class="grid_14 alpha omega">
+	  <p>Tenemos <br /> el coche <br /> que busca </p>
+	</div>
+
+	<div id="buscador" class="grid_5 alpha omega">
+	  <h2> BUSCADOR </h2>
+	  <form method="post" action="">
+	    <div>
+	      <label>Marca</label>
+	      <select>
+		<option>Opcion 1</option>
+		<option>Opcion 2</option>
+	      </select>
+	      <label>Modelo</label>
+	      <select>
+		<option>Opcion 1</option>
+		<option>Opcion 2</option>
+	      </select>
+	      <label>Combustible</label>
+	      <select>
+		<option>Opcion 1</option>
+		<option>Opcion 2</option>
+	      </select>
+	      <input id="nuevo" type="radio" name="tipo" value="nuevo" /> Nuevo
+	      <input id="usado" type="radio" name="tipo" value="usado" /> Usado
+	      <input type="submit" name="buscar" value="buscar" />
+	    </div>
+	  </form>
+	</div> <!-- Fin #buscador -->
+      </div> <!-- Fin #head_inf -->
     
-    <div id="main">
-      
+    </header> 
+   
+    <div id="main" class="container_24 sombra">
+      hola
     </div> <!-- #main -->
-    <footer>
+    <footer class="container_24">
+      <p class="grid_12">Indicaciones legales | Creada por &copy; Autointegra </p>
+      	<menu class="grid-12">
+	  <ul>
+	    <li>Síguenos en</li>
+	    <li>
+	      <a href="#">
+		<img alt="facebook" src="img/icons/facebook.png" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="#">
+		<img alt="linkedin" src="img/icons/linkedin.png" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="#">
+		<img alt="twitter" src="img/icons/twitter.png" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="#">
+		<img alt="email" src="img/icons/email.png" />
+	      </a>
+	    </li>
+	  </ul>
+	</menu>
 
     </footer>
   </div> <!-- #container -->
