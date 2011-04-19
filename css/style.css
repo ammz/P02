@@ -168,9 +168,22 @@ a:hover { color: #036; }
  * Author: 
  */
 
+body {
+    background-color: #afafa6;
+}
+
+#logo {
+    height: 100px;
+    background-color: black;
+}
+
+#container {
+    background-color: #651b32;
+}
 
 header {
-    background-color: #afafa6;
+    height: 345px;
+    background: #afafa6 url(../img/bg_header.jpg) no-repeat 300px 110px;
 }
 
 
