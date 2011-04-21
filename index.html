@@ -20,10 +20,10 @@
 
 <body>
 
-  <div id="container">
+  <div id="container" class="container_24">
     <header>
     
-      <div id="head_sup" class="container_24">
+      <div id="head_sup">
 
 	<div id="logo" class="grid_5 alpha omega">
 	  <img src="img/logo.png" alt="logo_empresa" />
@@ -61,7 +61,7 @@
 	</menu>
       </div> <!-- Fin head_sup -->
 
-      <div id="head_inf" class="container_24">
+      <div id="head_inf">
 	<nav class="grid_5 alpha omega">
 	  <ul>
 	    <li><a href="#">Inicio</a></li>
@@ -76,7 +76,7 @@
 	  <p>Tenemos <br /> el coche <br /> que busca </p>
 	</div>
 
-	<div id="buscador" class="grid_5 alpha omega">
+	<div id="buscador" class="grid_5 alpha omega sombra">
 	  <h2> BUSCADOR </h2>
 	  <form method="post" action="">
 	    <div>
@@ -107,30 +107,34 @@
    
     <div id="main" class="container_24 sombra">
       <aside id="col1" class="grid_5">
-	<button id="acceso">
-	  acceso privado
-	</button>
-	<img src="img/banners/banner.jpg" alt="banner01" />
-	<img src="img/banners/banner.jpg" alt="banner02" />
+      	<button id="acceso" class="redondeado">
+      	  <a href="#">acceso privado</a>
+      	</button>
+      	<img class="banner" src="img/banners/banner.jpg" alt="banner01" />
+      	<img class="banner" src="img/banners/banner.jpg" alt="banner02" />
       </aside>
 
       <div id="contenido" class="grid_14">
-	<div id="destacado">
+	<div id="destacado" class="redondeado">
 	  <h2>Coche destacado</h2>
-	  <img class="push_2"src="img/destacado.jpg" alt="coche destacado" />
-	  <p class="modelo grid_7">MINI COOPER, 1.6</p>
-	  <p class="precio grid_7">14.000 €</p>
-	  <hr />
-	  <p>Año: 2010 <span id="combustible">Diesel</span></p>
-	  <form method="post" action="">
-	    <div>
-	      <input type="submit" name="info" value="+INFO" />
-	    </div>
-	  </form>
+	  <img src="img/destacado.jpg" alt="coche destacado" />
+	  <p class="modelo grid_9 push_2">MINI COOPER, 1.6</p>
+	  <p class="precio grid_2 suffix_1 omega ">14.000 €</p>
+	  <div class="clearfix"></div>
+	  <hr class="grid_11 push_2" />
+	  <p class="grid_9 push_2">Año: 2010 <span class="push_3" id="combustible">Diesel</span></p>
+	  <!-- <form class="grid_3 suffix_1 omega" method="post" action=""> -->
+	  <!--   <div> -->
+	  <!--     <input type="submit" name="info" value="+INFO" /> -->
+	  <!--   </div> -->
+	  <!-- </form> -->
+	  <button>
+	    <a href="#">+INFO</a>
+	  </button>
 	</div> <!-- Fin #destacado -->
 	
 	<h3>STOCK DE VEHICULOS</h3>
-	<div id="stocks">
+	<div id="stocks" class="sombra redondeado">
 	  <table>
 	    <tr>
 	      <td>
@@ -150,7 +154,7 @@
 		  <p>Ferrari F9, 2.3</p>
 	      </td>
 	    </tr>
-	    <tr>
+	    <tr class="precios">
 	      <td>
 		<p>30.000 €</p>
 	      </td>
@@ -167,26 +171,28 @@
 	  </table>
 	  <form method="post" action="">
 	    <div>
-	      <button>Ver más ofertas</button>
+	      <button><a href="#">Ver más ofertas</a></button>
 	    </div>
 	  </form>
 	</div> <!-- Fin stocks -->
       </div> <!-- Fin #contenido -->
 
       <aside class="col2 grid_5">
-	<section id="noticias">
-	  <h3>NOTICIAS</h3>
-	  <article>
-	    <img src="img/foto-noticia.jpg" alt="Foto Noticia" />
-	    <h1>Nuevas vías de sanción, llegan los helicópteros con radar</h1>
-	    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. </p>
-	  </article>
-	  <article>
-	    <img src="img/foto-noticia.jpg" alt="Foto Noticia" />
-	    <h1>Las ventas de VO siguen subiendo un mes más</h1>
-	    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. </p>
-	  </article>
-	</section>
+      	<section id="noticias">
+      	  <h3>NOTICIAS</h3>
+      	  <article>
+      	    <img src="img/foto-noticia.jpg" alt="Foto Noticia" />
+     	    <h1>Nuevas vías de sanción, llegan los helicópteros con radar</h1>
+      	    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. </p>
+	    <button><a class="boton" href="#">Leer más</a></button>
+      	  </article>
+      	  <article>
+      	    <img src="img/foto-noticia.jpg" alt="Foto Noticia" />
+      	    <h1>Las ventas de VO siguen subiendo un mes más</h1>
+      	    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. </p>
+	    <button><a class="boton" href="#">Leer más</a></button>
+      	  </article>
+      	</section>
       </aside>
 
     </div> <!-- #main -->
@@ -208,11 +214,6 @@
 	    <li>
 	      <a href="#">
 		<img alt="twitter" src="img/icons/twitter.png" />
-	      </a>
-	    </li>
-	    <li>
-	      <a href="#">
-		<img alt="email" src="img/icons/email.png" />
 	      </a>
 	    </li>
 	  </ul>

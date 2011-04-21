@@ -174,20 +174,29 @@ a:hover { color: #036; }
 	box-shadow: 3px 3px 10px #1a1a1a;
 }
 
+.redondeado {
+	-moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
 
 body {
     background-color: #afafa6;
 }
 
 #container {
-    
+	position: relative;
 }
 
 header {
-    height: 345px;
+    height: auto;
     background-color: #afafa6;
     margin-top: 20px;
-    margin-bottom: -5px;
 }
 
 #head_sup {
@@ -345,10 +354,202 @@ nav li a:hover {
 }
 
 #main {
-	background-color: #651b32;
-	margin-top: -240px;
-	padding-top: 240px;
+	padding-top: 15px;
+	position: relative;
 	overflow: hidden;
+	background-color: #651b32;
+	padding-bottom: 20px;
+}
+
+
+#main h3 {
+	color: #afafa6;
+	font: bold 10px Verdana, "Lucida Grande", Lucida, sans-serif;
+	margin-bottom: 4px;
+}
+
+
+aside {
+	display: none;
+}
+
+button#acceso {
+	width: 180px;
+	height: 26px;
+	border: none;
+	background-color: #afafa6;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font: 12px/24px Verdana, "Lucida Grande", Lucida, sans-serif;
+	margin-left: 5px;
+}
+
+button#acceso a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.banner {
+	margin-bottom: 30px;
+	margin-left: 5px;
+}
+
+#noticias {
+	width: 180px;
+	font: normal normal 10px Verdana, "Lucida Grande", Lucida, sans-serif;
+}
+
+#noticias article {
+	background-color: black;
+	padding: 10px;
+	color: white;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+#noticias h1 {
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 12px;
+}
+
+#noticias button {
+	margin-top: 15px;
+	border: none;
+	font: 12px/21px Verdana, "Lucida Grande", Lucida, sans-serif;
+	background: #651b32 url(../img/triangulo_dcha.png) no-repeat 5px;
+	bottom: 10px;
+	padding: 2px 6px 2px 15px;
+	float: right;
+}
+
+#noticias button a {
+	text-decoration: none;
+	color: white;
+}
+
+#contenido {
+	position: relative;
+}
+
+#destacado {
+    position: relative;
+    background: #afafa6;
+	height: 370px;
+	margin-bottom: 15px;
+	color: black;
+}
+
+#destacado h2 {
+    height: 50px;
+    width: 370px;
+    background-color: #000;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 160px;
+    left: -160px;
+    display: block;
+    text-transform: uppercase;
+
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+	text-align: center;
+	line-height: 50px;
+}
+
+#destacado img {
+	margin-top: 10px;
+	margin-left: 77px;
+}
+
+#destacado .precio {
+	float: right;
+	text-align: right;
+}
+
+#destacado hr {
+	margin: 2px 2px 6px;
+	border-top-color: black;
+}
+
+#destacado button {
+	border: none;
+	background-color: black;
+	padding: 4px 10px;
+	position: absolute;
+	bottom: 12px;
+	right: 28px;
+}
+
+#destacado button a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#destacado input {
+	border: none;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+	padding: 6px 20px;
+}
+
+#stocks {
+	background: #afafa6;
+	padding: 10px;
+	font: 11px Verdana, "Lucida Grande", Lucida, sans-serif;
+	color: #000;
+	overflow: hidden;
+}
+
+#stocks table td {
+	padding: 0 4px;
+}
+
+#stocks table tr.precios td p{
+	border-top: 1px solid black;
+	font-weight: bold;
+	text-align: right;
+
+	padding-top: 5px;
+}
+
+#stocks table td p {
+	text-align: left;
+	padding: 0 5px;
+}
+
+#stocks img {
+	border: 2px solid white;
+}
+
+#stocks button {
+	margin-top: 15px;
+	border: 1px solid white;
+	font: 12px/21px Verdana, "Lucida Grande", Lucida, sans-serif;
+	background: #651b32;
+	bottom: 10px;
+	padding: 0px 6px;
+	float: right;
+}
+
+#stocks button a {
+	text-decoration: none;
+	color: white;
+	font: bold 11px Verdana, "Lucida Grande", Lucida, sans-serif;
 }
 
 footer {
@@ -370,53 +571,6 @@ footer menu ul {
 footer menu ul li {
 	float: left;
 	margin: 0 0 0 10px;
-}
-
-
-#contenido {
-    position: relative;
-}
-
-#destacado {
-    position: relative;
-    background: #afafa6;
-
-    -moz-border-radius-topleft: 10px;
-    -moz-border-radius-topright: 10px;
-    -moz-border-radius-bottomright: 10px;
-    -moz-border-radius-bottomleft: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-	height: 370px;
-}
-
-#destacado h2 {
-    height: 50px;
-    width: 370px;
-    background-color: #000;
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    top: 160px;
-    left: -160px;
-    display: block;
-    text-transform: uppercase;
-
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-
-    -moz-border-radius-topleft: 10px;
-    -moz-border-radius-topright: 10px;
-    -moz-border-radius-bottomright: 0px;
-    -moz-border-radius-bottomleft: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-	text-align: center;
-	line-height: 50px;
 }
 
 
