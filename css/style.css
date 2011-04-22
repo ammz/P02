@@ -583,13 +583,18 @@ footer menu ul li {
 	margin: 0 0 0 10px;
 }
 
-/* FICHA */
+
+
+/* ============================================ */
+/* FICHA                                        */
+/* ============================================ */
 
 #ficha {
 	position: relative;
 	color: white;
 	margin-bottom: 20px;
 	overflow: hidden;
+	margin-right: 14px;
 }
 
 #ficha h2 {
@@ -600,7 +605,7 @@ footer menu ul li {
 	margin-bottom: 10px;
 }
 
-#ficha>img {
+#ficha img {
 	border: 3px solid white;
 	float: left;
 	margin-right: 20px;
@@ -619,7 +624,8 @@ footer menu ul li {
 	width: 110px;
 }
 
-button {
+#ficha button,
+button#imprimir, button#contactar {
 	height: 21px;
 	border: 1px solid #bccdc9;
 	padding-left: 17px;
@@ -627,9 +633,12 @@ button {
 	font-size: 10px;
 	background: #afafa7 url(../img/triangulo_dcha.png) no-repeat 7px;
 	text-align: left;
+	
+	*padding-right: 5px;
 }
 
-button a {
+#ficha button a,
+button#imprimir a, button#contactar a {
 	color: white;
 	font-family: Verdana, "Lucida Grande", Lucida, sans-serif;
 	font-weight: bold;
@@ -650,8 +659,11 @@ button a {
 	margin-right: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	height: 104px;
 	margin-top: 40px;
+	margin-bottom: 20px;
+	
+	overflow: hidden;
+	height: 104px;
 }
 
 #carrusel #prev,
@@ -665,7 +677,7 @@ button a {
 #carrusel #nav_thumbs div {
 	height: 100px;
 	float: left;
-	padding:0 11px;
+	padding: 0 11px;
 }
 
 #carrusel #nav_thumbs img {
@@ -674,6 +686,10 @@ button a {
 
 #carrusel #next {
 	float: right;
+}
+
+#imprimir{
+	float: left;
 }
 
 #contactar {
