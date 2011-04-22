@@ -583,17 +583,103 @@ footer menu ul li {
 	margin: 0 0 0 10px;
 }
 
+/* FICHA */
 
+#ficha {
+	position: relative;
+	color: white;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
 
+#ficha h2 {
+	color: white ;
+	font: bold 18px Verdana, "Lucida Grande", Lucida, sans-serif;
+	border-bottom: 6px solid #afafa6;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
 
+#ficha>img {
+	border: 3px solid white;
+	float: left;
+	margin-right: 20px;
+}
 
+#ficha table {
+	width: 290px;
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 3px solid #afafa6;
+	font: 12px/18px Verdana, "Lucida Grande", Lucida, sans-serif;
+}
 
+#ficha table td:first-child {
+	width: 110px;
+}
 
+button {
+	height: 21px;
+	border: 1px solid #bccdc9;
+	padding-left: 17px;
+	color: white;
+	font-size: 10px;
+	background: #afafa7 url(../img/triangulo_dcha.png) no-repeat 7px;
+	text-align: left;
+}
 
+button a {
+	color: white;
+	font-family: Verdana, "Lucida Grande", Lucida, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
 
+#ficha button {
+	width: 200px;
+	display: block;
+	margin-right: auto;
+	margin-top: 12px;
+	margin-left: auto;
+}
 
+#nav_container {
+	border-top: 3px solid #afafa6;
+	border-bottom: 3px solid #afafa6;
+	margin-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 104px;
+	margin-top: 40px;
+}
 
+#carrusel #prev,
+#carrusel #next
+{
+	height: 100px;
+	float: left;
+	padding-top: 45px;
+}
 
+#carrusel #nav_thumbs div {
+	height: 100px;
+	float: left;
+	padding:0 11px;
+}
+
+#carrusel #nav_thumbs img {
+	border: 2px solid white;
+}
+
+#carrusel #next {
+	float: right;
+}
+
+#contactar {
+	float: right;
+	margin-right: 20px;
+}
 
 
 
