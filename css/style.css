@@ -371,15 +371,33 @@ aside {
 	display: none;
 }
 
+button {
+	height: 21px;
+	border: 1px solid #bccdc9;
+	padding-left: 17px;
+	color: white;
+	font-size: 10px;
+	background: #afafa7 url(../img/triangulo_dcha.png) no-repeat 7px;
+	text-align: left;
+}
+
+button a {
+	color: white;
+	font-family: Verdana, "Lucida Grande", Lucida, sans-serif;
+	text-decoration: none;
+}
+
 button#acceso {
 	width: 180px;
 	height: 26px;
 	border: none;
-	background-color: #afafa6;
+	background: #afafa6;
 	margin-bottom: 30px;
+	margin-left: 5px;
+	padding-left: 6px;
 	text-transform: uppercase;
 	font: 12px/24px Verdana, "Lucida Grande", Lucida, sans-serif;
-	margin-left: 5px;
+	text-align: center;
 }
 
 button#acceso a {
@@ -395,7 +413,7 @@ button#acceso a {
 
 #noticias {
 	width: 180px;
-	font: normal normal 10px Verdana, "Lucida Grande", Lucida, sans-serif;
+	font: normal 10px Verdana, "Lucida Grande", Lucida, sans-serif;
 }
 
 #noticias article {
@@ -419,7 +437,7 @@ button#acceso a {
 	font: 12px/21px Verdana, "Lucida Grande", Lucida, sans-serif;
 	background: #651b32 url(../img/triangulo_dcha.png) no-repeat 5px;
 	bottom: 10px;
-	padding: 2px 6px 2px 15px;
+	padding: 0px 6px 0px 15px;
 	float: right;
 	color: white;
 }
@@ -435,19 +453,24 @@ button#acceso a {
 
 #destacado {
     position: relative;
-    background: #afafa6;
 	height: 370px;
 	margin-bottom: 15px;
 	color: black;
+	/*background: #afafa6;*/
+	
+	background: #afafa6 url(../img/bg_destacado.png) no-repeat;
+	height: 370px;
 }
 
 #destacado h2 {
-    height: 50px;
+	display: none;
+    /*height: 50px;
     width: 370px;
-    background-color: #000;
     color: white;
+    background: #000;
     font-size: 30px;
     position: absolute;
+    
     top: 160px;
     left: -160px;
     display: block;
@@ -465,7 +488,7 @@ button#acceso a {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
 	text-align: center;
-	line-height: 50px;
+	line-height: 50px;*/
 }
 
 #destacado img {
@@ -486,7 +509,7 @@ button#acceso a {
 #destacado button {
 	border: none;
 	background-color: black;
-	padding: 4px 10px;
+	padding: 4px 15px;
 	position: absolute;
 	bottom: 12px;
 	right: 28px;
@@ -496,7 +519,6 @@ button#acceso a {
 #destacado button a {
 	text-decoration: none;
 	color: white;
-	font-weight: bold;
 }
 
 #destacado input {
@@ -617,23 +639,6 @@ footer menu ul li {
 
 #ficha table td:first-child {
 	width: 110px;
-}
-
-button {
-	height: 21px;
-	border: 1px solid #bccdc9;
-	padding-left: 17px;
-	color: white;
-	font-size: 10px;
-	background: #afafa7 url(../img/triangulo_dcha.png) no-repeat 7px;
-	text-align: left;
-}
-
-button a {
-	color: white;
-	font-family: Verdana, "Lucida Grande", Lucida, sans-serif;
-	font-weight: bold;
-	text-decoration: none;
 }
 
 #ficha button {
