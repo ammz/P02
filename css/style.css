@@ -687,6 +687,13 @@ footer menu ul li {
 }
 
 
+
+#contactar {
+	float: right;
+	margin-right: 20px;
+}
+
+
 #contenido a {
     text-decoration: none;
     color: wheat;
@@ -750,6 +757,12 @@ td img {
     color: white;
     font-size: large;
 }
+
+
+
+
+
+
 
 
 
