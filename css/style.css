@@ -687,7 +687,69 @@ footer menu ul li {
 }
 
 
+#contenido a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: normal;
+}
 
+
+table {
+    width: 620px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: verdana, arial, sans-serif;
+    font-size:11px;
+    margin-bottom: 20px;
+    color: #f2f2f2;
+}
+
+thead th {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+thead th.pref {
+    text-align: left;	
+}
+
+tbody tr:hover {
+    background: #ccc;
+    color: #474747;
+}
+
+
+tbody tr {
+	border-bottom: 1px solid #b7b7b7;
+	height: 64px;
+}
+
+td {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-align: center;
+}
+
+td.pref {
+	text-align: left;
+	font-weight: bold;
+	width: 140px;
+}
+
+td img {
+    float: left;
+}
+
+.paginacion {
+    float: right;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+.paginacion span {
+    color: white;
+    font-size: large;
+}
 
 
 
