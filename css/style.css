@@ -708,7 +708,7 @@ footer menu ul li {
 }
 
 
-#galeria table {
+#p_galeria table {
     width: 620px;
     margin-left: 5px;
     margin-right: 5px;
@@ -718,39 +718,39 @@ footer menu ul li {
     color: #f2f2f2;
 }
 
-#galeria thead th {
+#p_galeria thead th {
     text-align: center;
     padding-bottom: 10px;
 }
 
-#galeria thead th.pref {
+#p_galeria thead th.pref {
     text-align: left;
 }
 
-#galeria tbody tr:hover {
+#p_galeria tbody tr:hover {
     background: #ccc;
     color: #474747;
 }
 
 
-#galeria tbody tr {
+#p_galeria tbody tr {
 	border-bottom: 1px solid #b7b7b7;
 	height: 64px;
 }
 
-#galeria td {
+#p_galeria td {
 	padding-top: 7px;
 	padding-bottom: 7px;
 	text-align: center;
 }
 
-#galeria td.pref {
+#p_galeria td.pref {
 	text-align: left;
 	font-weight: bold;
 	width: 140px;
 }
 
-#galeria td img {
+#p_galeria td img {
     float: left;
 }
 
