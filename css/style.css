@@ -659,6 +659,10 @@ footer menu ul li {
 	margin-top: 40px;
 }
 
+#carrusel {
+    margin-bottom: 20px;
+}
+
 #carrusel #prev,
 #carrusel #next
 {
@@ -694,6 +698,9 @@ footer menu ul li {
 }
 
 
+
+/* GALERIA */
+
 #contenido a {
     text-decoration: none;
     color: wheat;
@@ -701,7 +708,7 @@ footer menu ul li {
 }
 
 
-table {
+#galeria table {
     width: 620px;
     margin-left: 5px;
     margin-right: 5px;
@@ -711,39 +718,39 @@ table {
     color: #f2f2f2;
 }
 
-thead th {
+#galeria thead th {
     text-align: center;
     padding-bottom: 10px;
 }
 
-thead th.pref {
-    text-align: left;	
+#galeria thead th.pref {
+    text-align: left;
 }
 
-tbody tr:hover {
+#galeria tbody tr:hover {
     background: #ccc;
     color: #474747;
 }
 
 
-tbody tr {
+#galeria tbody tr {
 	border-bottom: 1px solid #b7b7b7;
 	height: 64px;
 }
 
-td {
+#galeria td {
 	padding-top: 7px;
 	padding-bottom: 7px;
 	text-align: center;
 }
 
-td.pref {
+#galeria td.pref {
 	text-align: left;
 	font-weight: bold;
 	width: 140px;
 }
 
-td img {
+#galeria td img {
     float: left;
 }
 

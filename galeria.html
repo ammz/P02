@@ -5,256 +5,250 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="es"> <!--<![endif]-->
 
 <head>
-  <meta charset="utf-8" />
-  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> -->
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> -->
 
-  <title></title>
-  <meta name="description" content="Plantilla 02 de autointegra" />
-  <meta name="author" content="Antonio Moreno" />
+    <title></title>
+    <meta name="description" content="Plantilla 02 de autointegra" />
+    <meta name="author" content="Antonio Moreno" />
 
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/960_24_col.css" />
-  
-  <script src="js/libs/modernizr-1.7.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/960_24_col.css" />
+    
+    <script src="js/libs/modernizr-1.7.min.js"></script>
 </head>
 
-<body>
+<body id="galeria">
 
-  <div id="container" class="container_24">
-    <header>
-      
-      <div id="head_sup">
+    <div id="container" class="container_24">
+	<header>
+	    
+	    <div id="head_sup">
 
-	<div id="logo" class="grid_5 alpha omega">
-	  <img src="img/logo.png" alt="logo_empresa" />
-	</div>
+		<div id="logo" class="grid_5 alpha omega">
+		    <img src="img/logo.png" alt="logo_empresa" />
+		</div>
 
-	<div id="direccion" class="grid_14">
-	  <p>Avda. José Galán Merino s/n, 41015 - Sevilla</p>
-	</div>
+		<div id="direccion" class="grid_14">
+		    <p>Avda. José Galán Merino s/n, 41015 - Sevilla</p>
+		</div>
+		
+		<p id="telefono" class="grid_4 alpha">900 456 876</p>
+
+		<menu class="grid-1">
+		    <ul>
+			<li><a href="#"><img alt="facebook" src="img/icons/facebook.png" /></a></li>
+			<li><a href="#"><img alt="linkedin" src="img/icons/linkedin.png" /></a></li>
+			<li><a href="#"><img alt="twitter" src="img/icons/twitter.png" /></a></li>
+			<li><a href="#"><img alt="email" src="img/icons/email.png" /></a></li>
+		    </ul>
+		</menu>
+	    </div> <!-- Fin head_sup -->
+
+	    <div id="head_inf">
+		<nav class="grid_5 alpha omega">
+		    <ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Stock de vehículos</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">¿Dónde estamos?</a></li>
+			<li><a href="#">Contacto</a></li>
+		    </ul>
+		</nav>
+
+		<div id="feature" class="grid_14 alpha omega">
+		    <p>Tenemos <br /> el coche <br /> que busca </p>
+		</div>
+
+		<div id="buscador" class="grid_5 alpha omega sombra">
+		    <h2> BUSCADOR </h2>
+		    <form method="post" action="">
+			<div>
+			    <label>Marca</label>
+			    <select>
+				<option>Opcion 1</option>
+				<option>Opcion 2</option>
+			    </select>
+			    <label>Modelo</label>
+			    <select>
+				<option>Opcion 1</option>
+				<option>Opcion 2</option>
+			    </select>
+			    <label>Combustible</label>
+			    <select>
+				<option>Opcion 1</option>
+				<option>Opcion 2</option>
+			    </select>
+			    <input id="nuevo" type="radio" name="tipo" value="nuevo" /> Nuevo
+			    <input id="usado" type="radio" name="tipo" value="usado" /> Usado
+			    <input class="boton" type="submit" name="buscar" value="Buscar" />
+			</div>
+		    </form>
+		</div> <!-- Fin #buscador -->
+	    </div> <!-- Fin #head_inf -->
+	    
+	</header> 
 	
-	<p id="telefono" class="grid_4 alpha">900 456 876</p>
+	<div id="main" class="container_24 sombra">
 
-	<menu class="grid-1">
-	  <ul>
-	    <li>
-	      <a href="#">
-		<img alt="facebook" src="img/icons/facebook.png" />
-	      </a>
-	    </li>
-	    <li>
-	      <a href="#">
-		<img alt="linkedin" src="img/icons/linkedin.png" />
-	      </a>
-	    </li>
-	    <li>
-	      <a href="#">
-		<img alt="twitter" src="img/icons/twitter.png" />
-	      </a>
-	    </li>
-	    <li>
-	      <a href="#">
-		<img alt="email" src="img/icons/email.png" />
-	      </a>
-	    </li>
-	  </ul>
+	    <aside id="col1" class="grid_5">
+		<button id="acceso" class="redondeado"><a href="#">acceso privado</a></button>
+		<a href="#"><img class="banner" src="img/banners/banner.jpg" alt="banner01" /></a>  	
+		<a href="#"><img class="banner" src="img/banners/banner.jpg" alt="banner02" /></a>
+	    </aside>
+
+
+	    <div id="contenido" class="grid_17 prefix_1 suffix_1">
+		<table class="tableResults">
+		    <thead>
+			<tr> 
+			    <th></th> 
+			    <th class="pref"><a href="" title="Clic para ordenar">Marca-Modelo</a></th>
+			    <th class="pref"><a href="" title="Clic para ordenar">Versión</a></th>
+			    <th><a href="" title="Clic para ordenar">Combustible</a></th> 
+			    <th><a href="" title="Clic para ordenar">km</a></th> 
+			    <th><a href="" title="Clic para ordenar">Año</a></th> 
+			    <th><a href="" title="Clic para ordenar">Precio</a></th> 
+			</tr> 
+		    </thead>
+
+		    <tbody>
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Suzuki Grand Vitara</td> 
+			    <td class="pref">2.5 TDI QUATTRO super completo de la leche</td> 
+			    <td>Diesel</td> 
+			    <td>13.000 km</td> 
+			    <td>2004</td> 
+			    <td>10.000 €</td>
+			</tr> 
+
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Lamborghini Murcielago</td> 
+			    <td class="pref">2.5 TDI QUATTRO</td> 
+			    <td>Gasoil</td> 
+			    <td>130.000 km</td> 
+			    <td>2004</td> 
+			    <td>130.000 €</td>
+			</tr> 
+
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Audi A4</td> 
+			    <td class="pref">2.5 TDI QUATTRO</td> 
+			    <td>Diesel</td> 
+			    <td>13.000 km</td> 
+			    <td>2004</td> 
+			    <td>10.000 €</td>
+			</tr> 
+
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Audi A4</td> 
+			    <td class="pref">2.5 TDI QUATTRO</td> 
+			    <td>Gasoil</td> 
+			    <td>13.000 km</td> 
+			    <td>2004</td> 
+			    <td>10.000 €</td>
+			</tr> 
+
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Audi A4</td> 
+			    <td class="pref">2.5 TDI QUATTRO</td> 
+			    <td>Diesel</td> 
+			    <td>13.000 km</td> 
+			    <td>2004</td> 
+			    <td>10.000 €</td>
+			</tr> 
+
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Audi A4</td> 
+			    <td class="pref">2.5 TDI QUATTRO</td> 
+			    <td>Gasoil</td> 
+			    <td>13.000 km</td> 
+			    <td>2004</td> 
+			    <td>10.000 €</td>
+			</tr> 
+
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Audi A4</td> 
+			    <td class="pref">2.5 TDI QUATTRO</td> 
+			    <td>Diesel</td> 
+			    <td>13.000 km</td> 
+			    <td>2004</td> 
+			    <td>10.000 €</td>
+			</tr> 
+
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Audi A4</td> 
+			    <td class="pref">2.5 TDI QUATTRO</td> 
+			    <td>Gasoil</td> 
+			    <td>13.000 km</td> 
+			    <td>2004</td> 
+			    <td>10.000 €</td>
+			</tr> 
+
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Audi A4</td> 
+			    <td class="pref">2.5 TDI QUATTRO</td> 
+			    <td>Diesel</td> 
+			    <td>13.000 km</td> 
+			    <td>2004</td> 
+			    <td>10.000 €</td>
+			</tr> 
+
+			<tr> 
+			    <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
+			    <td class="pref">Audi A4</td> 
+			    <td class="pref">2.5 TDI QUATTRO</td> 
+			    <td>Gasoil</td> 
+			    <td>13.000 km</td> 
+			    <td>2004</td> 
+			    <td>10.000 €</td>
+			</tr> 
+		    </tbody>
+		</table>
+		<div class="paginacion">
+		    <!--Anterior-->
+		    <a href="" title="Resultados anteriores">« Anterior </a>
+		    <!-- Paginas-->
+		    <a class="pag"  href="" title="Más resultados en la página 7">7</a>
+		    <a class="pag"  href="" title="Más resultados en la página 8">8</a>
+		    <span>9</span>
+		    <a class="pag"  href="" title="Más resultados en la página 10">10</a>
+		    <a class="pag"  href="" title="Más resultados en la página 11">11</a>
+		    <!--Siguiente-->
+		    <a rel="nofollow" href="" title="Siguientes resultados ">Siguiente »</a>
+		</div>
+	    </div> <!-- Fin #contenido -->
+
+
+	</div> <!-- #contenido -->
+
+    </div> <!-- Fin de #container -->
+    <footer class="container_24">
+	<p class="grid_12">Indicaciones legales | Creada por &copy; Autointegra </p>
+      	<menu class="grid-12">
+	    <ul>
+		<li>Síguenos en</li>
+		<li><a href="#"><img alt="facebook" src="img/icons/facebook.png" /></a></li>
+		<li><a href="#"><img alt="linkedin" src="img/icons/linkedin.png" /></a></li>
+		<li><a href="#"><img alt="twitter" src="img/icons/twitter.png" /></a></li>
+	    </ul>
 	</menu>
-      </div> <!-- Fin head_sup -->
 
-      <div id="head_inf">
-	<nav class="grid_5 alpha omega">
-	  <ul>
-	    <li><a href="#">Inicio</a></li>
-	    <li><a href="#">Stock de vehículos</a></li>
-	    <li><a href="#">Servicios</a></li>
-	    <li><a href="#">¿Dónde estamos?</a></li>
-	    <li><a href="#">Contacto</a></li>
-	  </ul>
-	</nav>
-
-	<div id="feature" class="grid_14 alpha omega">
-	  <p>Tenemos <br /> el coche <br /> que busca </p>
-	</div>
-
-	<div id="buscador" class="grid_5 alpha omega sombra">
-	  <h2> BUSCADOR </h2>
-	  <form method="post" action="">
-	    <div>
-	      <label>Marca</label>
-	      <select>
-		<option>Opcion 1</option>
-		<option>Opcion 2</option>
-	      </select>
-	      <label>Modelo</label>
-	      <select>
-		<option>Opcion 1</option>
-		<option>Opcion 2</option>
-	      </select>
-	      <label>Combustible</label>
-	      <select>
-		<option>Opcion 1</option>
-		<option>Opcion 2</option>
-	      </select>
-	      <input id="nuevo" type="radio" name="tipo" value="nuevo" /> Nuevo
-	      <input id="usado" type="radio" name="tipo" value="usado" /> Usado
-	      <input class="boton" type="submit" name="buscar" value="Buscar" />
-	    </div>
-	  </form>
-	</div> <!-- Fin #buscador -->
-      </div> <!-- Fin #head_inf -->
-      
-    </header> 
+    </footer>
     
-    <div id="main" class="container_24 sombra">
+    <!--[if lt IE 7 ]>
+	<script src="js/libs/dd_belatedpng.js"></script>
+	<script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+	<![endif]-->
 
-      <aside id="col1" class="grid_5">
-      	<button id="acceso" class="redondeado">
-      	  <a href="#">acceso privado</a>
-      	</button>
-	<a href="#"><img class="banner" src="img/banners/banner.jpg" alt="banner01" /></a>  	
-      	<a href="#"><img class="banner" src="img/banners/banner.jpg" alt="banner02" /></a>
-      </aside>
-
-
-      <div id="contenido" class="grid_17 prefix_1 suffix_1">
-	<table class="tableResults">
-	  <thead>
-	    <tr> 
-	      <th></th> 
-	      <th class="pref"><a href="" title="Clic para ordenar">Marca-Modelo</a></th>
-	      <th class="pref"><a href="" title="Clic para ordenar">Versión</a></th>
-	      <th><a href="" title="Clic para ordenar">Combustible</a></th> 
-	      <th><a href="" title="Clic para ordenar">km</a></th> 
-	      <th><a href="" title="Clic para ordenar">Año</a></th> 
-	      <th><a href="" title="Clic para ordenar">Precio</a></th> 
-	    </tr> 
-	  </thead>
-
-	  <tbody>
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Suzuki Grand Vitara</td> 
-	      <td class="pref">2.5 TDI QUATTRO super completo de la leche</td> 
-	      <td>Diesel</td> 
-	      <td>13.000 km</td> 
-	      <td>2004</td> 
-	      <td>10.000 €</td>
-	    </tr> 
-
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Lamborghini Murcielago</td> 
-	      <td class="pref">2.5 TDI QUATTRO</td> 
-	      <td>Gasoil</td> 
-	      <td>130.000 km</td> 
-	      <td>2004</td> 
-	      <td>130.000 €</td>
-	    </tr> 
-
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Audi A4</td> 
-	      <td class="pref">2.5 TDI QUATTRO</td> 
-	      <td>Diesel</td> 
-	      <td>13.000 km</td> 
-	      <td>2004</td> 
-	      <td>10.000 €</td>
-	    </tr> 
-
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Audi A4</td> 
-	      <td class="pref">2.5 TDI QUATTRO</td> 
-	      <td>Gasoil</td> 
-	      <td>13.000 km</td> 
-	      <td>2004</td> 
-	      <td>10.000 €</td>
-	    </tr> 
-
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Audi A4</td> 
-	      <td class="pref">2.5 TDI QUATTRO</td> 
-	      <td>Diesel</td> 
-	      <td>13.000 km</td> 
-	      <td>2004</td> 
-	      <td>10.000 €</td>
-	    </tr> 
-
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Audi A4</td> 
-	      <td class="pref">2.5 TDI QUATTRO</td> 
-	      <td>Gasoil</td> 
-	      <td>13.000 km</td> 
-	      <td>2004</td> 
-	      <td>10.000 €</td>
-	    </tr> 
-
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Audi A4</td> 
-	      <td class="pref">2.5 TDI QUATTRO</td> 
-	      <td>Diesel</td> 
-	      <td>13.000 km</td> 
-	      <td>2004</td> 
-	      <td>10.000 €</td>
-	    </tr> 
-
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Audi A4</td> 
-	      <td class="pref">2.5 TDI QUATTRO</td> 
-	      <td>Gasoil</td> 
-	      <td>13.000 km</td> 
-	      <td>2004</td> 
-	      <td>10.000 €</td>
-	    </tr> 
-
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Audi A4</td> 
-	      <td class="pref">2.5 TDI QUATTRO</td> 
-	      <td>Diesel</td> 
-	      <td>13.000 km</td> 
-	      <td>2004</td> 
-	      <td>10.000 €</td>
-	    </tr> 
-
-	    <tr> 
-	      <td><a href=""><img src="img/cochegaleria.jpg" width="74" height="56" alt="" /></a></td> 
-	      <td class="pref">Audi A4</td> 
-	      <td class="pref">2.5 TDI QUATTRO</td> 
-	      <td>Gasoil</td> 
-	      <td>13.000 km</td> 
-	      <td>2004</td> 
-	      <td>10.000 €</td>
-	    </tr> 
-	  </tbody>
-	</table>
-	<div class="paginacion">
-	  <!--Anterior-->
-	  <a href="" title="Resultados anteriores">« Anterior </a>
-	  <!-- Paginas-->
-	  <a class="pag"  href="" title="Más resultados en la página 7">7</a>
-	  <a class="pag"  href="" title="Más resultados en la página 8">8</a>
-	  <span>9</span>
-	  <a class="pag"  href="" title="Más resultados en la página 10">10</a>
-	  <a class="pag"  href="" title="Más resultados en la página 11">11</a>
-	  <!--Siguiente-->
-	  <a rel="nofollow" href="" title="Siguientes resultados ">Siguiente »</a>
-	</div>
-      </div> <!-- Fin #contenido -->
-
-
-    </div> <!-- #contenido -->
-
-  </div> <!-- Fin de #container -->
-
-  <!--[if lt IE 7 ]>
-      <script src="js/libs/dd_belatedpng.js"></script>
-      <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
-      <![endif]-->
-
-    </body>
-  </html>
+</body>
+</html>

@@ -5,228 +5,200 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="es"> <!--<![endif]-->
 
 <head>
-  <meta charset="utf-8" />
-  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> -->
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> -->
 
-  <title></title>
-  <meta name="description" content="Plantilla 02 de autointegra" />
-  <meta name="author" content="Antonio Moreno" />
+    <title></title>
+    <meta name="description" content="Plantilla 02 de autointegra" />
+    <meta name="author" content="Antonio Moreno" />
 
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/960_24_col.css" />
-  
-  <script src="js/libs/modernizr-1.7.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/960_24_col.css" />
+    
+    <script src="js/libs/modernizr-1.7.min.js"></script>
 </head>
 
 <body>
 
-  <div id="container" class="container_24">
-    <header>
-    
-      <div id="head_sup">
+    <div id="container" class="container_24">
+	<header>
+	    
+	    <div id="head_sup">
 
-	<div id="logo" class="grid_5 alpha omega">
-	  <img src="img/logo.png" alt="logo_empresa" />
-	</div>
+		<div id="logo" class="grid_5 alpha omega">
+		    <img src="img/logo.png" alt="logo_empresa" />
+		</div>
 
-	<div id="direccion" class="grid_14">
-	  <p>Avda. José Galán Merino s/n, 41015 - Sevilla</p>
-	</div>
+		<div id="direccion" class="grid_14">
+		    <p>Avda. José Galán Merino s/n, 41015 - Sevilla</p>
+		</div>
+		
+		<p id="telefono" class="grid_4 alpha">900 456 876</p>
+
+		<menu class="grid-1">
+		    <ul>
+			<li><a href="#"><img alt="facebook" src="img/icons/facebook.png" /></a></li>
+			<li><a href="#"><img alt="linkedin" src="img/icons/linkedin.png" /></a></li>
+			<li><a href="#"><img alt="twitter" src="img/icons/twitter.png" /></a></li>
+			<li><a href="#"><img alt="email" src="img/icons/email.png" /></a></li>
+		    </ul>
+		</menu>
+	    </div> <!-- Fin head_sup -->
+
+	    <div id="head_inf">
+		<nav class="grid_5 alpha omega">
+		    <ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Stock de vehículos</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">¿Dónde estamos?</a></li>
+			<li><a href="#">Contacto</a></li>
+		    </ul>
+		</nav>
+
+		<div id="feature" class="grid_14 alpha omega">
+		    <p>Tenemos <br /> el coche <br /> que busca </p>
+		</div>
+
+		<div id="buscador" class="grid_5 alpha omega sombra">
+		    <h2> BUSCADOR </h2>
+		    <form method="post" action="#">
+			<div>
+			    <label>Marca</label>
+			    <select>
+				<option>Opcion 1</option>
+				<option>Opcion 2</option>
+			    </select>
+			    <label>Modelo</label>
+			    <select>
+				<option>Opcion 1</option>
+				<option>Opcion 2</option>
+			    </select>
+			    <label>Combustible</label>
+			    <select>
+				<option>Opcion 1</option>
+				<option>Opcion 2</option>
+			    </select>
+			    <input id="nuevo" type="radio" name="tipo" value="nuevo" /> Nuevo
+			    <input id="usado" type="radio" name="tipo" value="usado" /> Usado
+			    <input class="boton png_bg" type="submit" name="buscar" value="Buscar" />
+			</div>
+		    </form>
+		</div> <!-- Fin #buscador -->
+	    </div> <!-- Fin #head_inf -->
+	    
+	</header> 
 	
-	<p id="telefono" class="grid_4 alpha">900 456 876</p>
+	<div id="main" class="container_24 sombra">
+	    <aside id="col1" class="grid_5">
+		<button id="acceso" class="redondeado"><a href="#">acceso privado</a></button>
+		<a href="#"><img class="banner" src="img/banners/banner.jpg" alt="banner01" /></a>  	
+		<a href="#"><img class="banner" src="img/banners/banner.jpg" alt="banner02" /></a>
+	    </aside>
 
-	<menu class="grid-1">
-	  <ul>
-	    <li>
-	      <a href="#">
-		<img alt="facebook" src="img/icons/facebook.png" />
-	      </a>
-	    </li>
-	    <li>
-	      <a href="#">
-		<img alt="linkedin" src="img/icons/linkedin.png" />
-	      </a>
-	    </li>
-	    <li>
-	      <a href="#">
-		<img alt="twitter" src="img/icons/twitter.png" />
-	      </a>
-	    </li>
-	    <li>
-	      <a href="#">
-		<img alt="email" src="img/icons/email.png" />
-	      </a>
-	    </li>
-	  </ul>
-	</menu>
-      </div> <!-- Fin head_sup -->
+	    <div id="contenido" class="grid_19">
+		<div id="ficha">
+		    <h2>Porsche 911 Cabriolet<span class="precio">46.000 €</span></h2>
+		    <img src="img/ficha.jpg" alt="ficha vehiculo" />
+		    <table>
+			<tr>
+			    <td>Año:</td>
+			    <td>2010</td>
+			</tr>
+			<tr>
+			    <td>Potencia:</td>
+			    <td>375 CV</td>
+			</tr>
+			<tr>
+			    <td>Combustible:</td>
+			    <td>Gasolina</td>
+			</tr>
+			<tr>
+			    <td>Cambio:</td>
+			    <td>Manual</td>
+			</tr>
+			<tr>
+			    <td>Puertas:</td>
+			    <td>5</td>
+			</tr>
+			<tr>
+			    <td>Tipo:</td>
+			    <td>Todoterreno</td>
+			</tr>
+			<tr>
+			    <td>Color:</td>
+			    <td>Blanco</td>
+			</tr>
+			<tr>
+			    <td>Garantía:</td>
+			    <td>12 meses</td>
+			</tr>
+			<tr>
+			    <td>Kms:</td>
+			    <td>12.000</td>
+			</tr>
+		    </table>
 
-      <div id="head_inf">
-	<nav class="grid_5 alpha omega">
-	  <ul>
-	    <li><a href="#">Inicio</a></li>
-	    <li><a href="#">Stock de vehículos</a></li>
-	    <li><a href="#">Servicios</a></li>
-	    <li><a href="#">¿Dónde estamos?</a></li>
-	    <li><a href="#">Contacto</a></li>
-	  </ul>
-	</nav>
+		    <p>Observaciones: coche procedente de Marbella. Usado durnte dos años en servicio de Renting</p>
 
-	<div id="feature" class="grid_14 alpha omega">
-	  <p>Tenemos <br /> el coche <br /> que busca </p>
-	</div>
+		    <button class="png_bg"><span>|</span> Ver equipamiento de serie</button>
 
-	<div id="buscador" class="grid_5 alpha omega sombra">
-	  <h2> BUSCADOR </h2>
-	  <form method="post" action="#">
-	    <div>
-	      <label>Marca</label>
-	      <select>
-		<option>Opcion 1</option>
-		<option>Opcion 2</option>
-	      </select>
-	      <label>Modelo</label>
-	      <select>
-		<option>Opcion 1</option>
-		<option>Opcion 2</option>
-	      </select>
-	      <label>Combustible</label>
-	      <select>
-		<option>Opcion 1</option>
-		<option>Opcion 2</option>
-	      </select>
-	      <input id="nuevo" type="radio" name="tipo" value="nuevo" /> Nuevo
-	      <input id="usado" type="radio" name="tipo" value="usado" /> Usado
-	      <input class="boton png_bg" type="submit" name="buscar" value="buscar" />
-	    </div>
-	  </form>
-	</div> <!-- Fin #buscador -->
-      </div> <!-- Fin #head_inf -->
-    
-    </header> 
-   
-    <div id="main" class="container_24 sombra">
-      <aside id="col1" class="grid_5">
-      	<button id="acceso" class="redondeado">acceso privado</button>
-	<a href="#"><img class="banner" src="img/banners/banner.jpg" alt="banner01" /></a>  	
-      	<a href="#"><img class="banner" src="img/banners/banner.jpg" alt="banner02" /></a>
-      </aside>
+		    <button class="png_bg"><span>|</span> Ver equipamiento extra</button>
 
-      <div id="contenido" class="grid_19">
-	<div id="ficha">
-	  <h2>Porsche 911 Cabriolet<span class="precio">46.000 €</span></h2>
-	  <img src="img/ficha.jpg" alt="ficha vehiculo" />
-	  <table>
-	    <tr>
-	      <td>Año:</td>
-	      <td>2010</td>
-	    </tr>
-	    <tr>
-	      <td>Potencia:</td>
-	      <td>375 CV</td>
-	    </tr>
-	    <tr>
-	      <td>Combustible:</td>
-	      <td>Gasolina</td>
-	    </tr>
-	    <tr>
-	      <td>Cambio:</td>
-	      <td>Manual</td>
-	    </tr>
-	    <tr>
-	      <td>Puertas:</td>
-	      <td>5</td>
-	    </tr>
-	    <tr>
-	      <td>Tipo:</td>
-	      <td>Todoterreno</td>
-	    </tr>
-	    <tr>
-	      <td>Color:</td>
-	      <td>Blanco</td>
-	    </tr>
-	    <tr>
-	      <td>Garantía:</td>
-	      <td>12 meses</td>
-	    </tr>
-	    <tr>
-	      <td>Kms:</td>
-	      <td>12.000</td>
-	    </tr>
-	  </table>
+		</div>
+		
+		<div id="carrusel">
+		    <div id="nav_container">
+			<div id="prev">
+			    <a id="a_prev" href=""><img src="img/prev.png" alt="" /></a>
+			</div>
+			<div id="next">
+			    <a id="a_next" href=""><img src="img/next.png" alt="" /></a>
+			</div>
+			<div id="nav_thumbs">
+			    <div id="navthumb_1">
+				<a href=""><img src="img/navthumb.jpg" alt="" /></a>
+			    </div>
+			    <div id="navthumb_2">
+				<a href=""><img src="img/navthumb.jpg" alt="" /></a>
+			    </div>
+			    <div id="navthumb_3">
+				<a href=""><img src="img/navthumb.jpg" alt="" /></a>
+			    </div>
+			    <div id="navthumb_4">
+				<a href=""><img src="img/navthumb.jpg" alt="" /></a>
+			    </div>
+			</div>
+		    </div>
+		</div>
+		
+		<button id="imprimir" class="png_bg"><span>|</span> Imprimir</button>
 
-	  <p>Observaciones: coche procedente de Marbella. Usado durnte dos años en servicio de Renting</p>
+		<button id="contactar" class="png_bg"><span>|</span> Contactar con el anunciante</button>
 
-	  <button class="png_bg"><span>|</span> Ver equipamiento de serie</button>
+	    </div> <!-- Fin #ficha -->
+	    
 
-	  <button class="png_bg"><span>|</span> Ver equipamiento extra</button>
+	</div> <!-- #main -->
 
-	</div>
- 
-	<div id="carrusel">
-	  <div id="nav_container">
-	    <div id="prev">
-	      <a id="a_prev" href=""><img src="img/prev.png" alt="" /></a>
-	    </div>
-	    <div id="next">
-	      <a id="a_next" href=""><img src="img/next.png" alt="" /></a>
-	    </div>
-	    <div id="nav_thumbs">
-	      <div id="navthumb_1">
-		<a href=""><img src="img/navthumb.jpg" alt="" /></a>
-	      </div>
-	      <div id="navthumb_2">
-		<a href=""><img src="img/navthumb.jpg" alt="" /></a>
-	      </div>
-	      <div id="navthumb_3">
-		<a href=""><img src="img/navthumb.jpg" alt="" /></a>
-	      </div>
-	      <div id="navthumb_4">
-		<a href=""><img src="img/navthumb.jpg" alt="" /></a>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	
-	  <button id="imprimir" class="png_bg"><span>|</span> Imprimir</button>
+	<footer class="container_24">
+	    <p class="grid_12">Indicaciones legales | Creada por &copy; Autointegra </p>
+	    <menu class="grid-12">
+		<ul>
+		    <li>Síguenos en</li>
+		    <li><a href="#"><img alt="facebook" src="img/icons/facebook.png" /></a></li>
+		    <li><a href="#"><img alt="linkedin" src="img/icons/linkedin.png" /></a></li>
+		    <li><a href="#"><img alt="twitter" src="img/icons/twitter.png" /></a></li>
+		</ul>
+	    </menu>
 
-	  <button id="contactar" class="png_bg"><span>|</span> Contactar con el anunciante</button>
+	</footer>
+    </div> <!-- Fin de #container -->
 
-	</div> <!-- Fin #ficha -->
-	
+    <!--[if lt IE 7 ]>
+	<script src="js/libs/dd_belatedpng.js"></script>
+	<script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+	<![endif]-->
 
-    </div> <!-- #main -->
-
-    <footer class="container_24">
-      <p class="grid_12">Indicaciones legales | Creada por &copy; Autointegra </p>
-      	<menu class="grid-12">
-	  <ul>
-	    <li>Síguenos en</li>
-	    <li>
-	      <a href="#">
-		<img alt="facebook" src="img/icons/facebook.png" />
-	      </a>
-	    </li>
-	    <li>
-	      <a href="#">
-		<img alt="linkedin" src="img/icons/linkedin.png" />
-	      </a>
-	    </li>
-	    <li>
-	      <a href="#">
-		<img alt="twitter" src="img/icons/twitter.png" />
-	      </a>
-	    </li>
-	  </ul>
-	</menu>
-
-    </footer>
-  </div> <!-- Fin de #container -->
-
-  <!--[if lt IE 7 ]>
-    <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
-  <![endif]-->
-
-</body>
+    </body>
 </html>
